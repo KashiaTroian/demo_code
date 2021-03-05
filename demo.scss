@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Raleway&display=swap');
+ body {
+    background: #051D0F;
+ }
+.container {
+    margin: 0 auto;
+     width: 100%;
+     padding: 10px;
+     max-width: 320px;
+     font-family: 'Raleway', sans-serif;
+     color: #FFFEFE;
+     background: #051D0F;
+ }
+ 
+ .demo__title {
+     font-family: 'Lora', serif;
+     font-size: 24px;
+    line-height: 31px;
+    color: #FFFEFE;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+ }
+ 
+ .demo__tab {
+     display: flex;
+    justify-content: start;
+     align-items: center;
+ 
+ }
+ 
+.demo__tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+    color: #FFFEFE;
+    padding: 12px 12px 12px 12px;
+    float: left;
+    color: #C4C4C4;
+}
+
+.demo__tab button:hover { 
+      box-shadow: 0px 0px 4px #F9DE51;
+}
+
+.demo__tab button.active {
+    color: #FFFEFE;
+}
+
+.tabcontent {
+    display: none;
+} 
+.article__header {
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #FFFEFE;
+    margin-bottom: 16px;
+}
+.article__title {
+    font-size: 18px;
+    line-height: 23px;
+}
+.article__date {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+@media (min-width:480px) {
+    
+}
+@media (min-width:760px) {
+    
+}
+@media (min-width:940px) {
+    
+}
+
+
